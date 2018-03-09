@@ -3,7 +3,8 @@
 Created on Tue Jan 30 09:50:25 2018
 
 code on book TensorFlow page79-80：Custom loss function
-
+python: 3.6.2
+tensorflow:1.4.0
 
 @author: hxh
 """
