@@ -16,6 +16,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 # 那么TensorFlow会自动从给出的网址中下载
 
 mnist = input_data.read_data_sets("MNIST_data",one_hot=True)
+# 通过read_data_sets函数生成的类会自动将MNIST数据集划分成train validation test三个数据集
+# 处理后的每张图片是一个长度为784的一维数组，这个数组中的元素对应了图片像素矩阵中的每一个数字
+# 像素矩阵中元素的取值范围是[0,1]，0表示白色背景，1表示黑色背景
+
 
 # 打印Training data size : 55000
 print("Training data size : ",mnist.train.num_examples)
